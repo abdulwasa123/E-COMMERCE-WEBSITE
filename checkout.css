@@ -1,0 +1,265 @@
+body{
+    background-color: white;
+}
+
+/* STYLING THE NAV BAR */
+
+@font-face {
+    font-family: poppins;
+    src: url(Poppins-Regular.ttf);
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav .logo-icon{
+    margin-top: 0.7rem;
+}
+nav ul{
+    display: flex;
+    gap: 1.8rem;
+    list-style-type: none;
+}
+nav ul li a{
+    color: rgb(91, 90, 90);
+    text-decoration: none;
+    font-family: poppins;
+    font-weight: bold;
+    transition: all ease-in 0.1s;
+}
+nav ul li a:hover{
+    color: white;
+}
+nav ul li{
+    margin-top: 0.5rem;
+}
+nav img{
+    object-fit: contain;
+    width: 150px;
+    cursor: pointer;
+    transition: all ease-in 0.1s;
+}
+nav img:hover{
+    transform: scale(1.04);
+}
+.cart-icon img{
+    object-fit: contain;
+    width: 30px;
+}
+
+.move-cont{
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+}
+.title-container{
+    display: flex;
+    align-items: center;
+    background-color: orangered;
+    height: 2.3rem;
+    width: 60rem;
+}
+.title-container h4{
+    color: white;
+    font-family: poppins;
+    font-weight: bold;
+    margin-left: 0.4rem;
+}
+.quantityandsubtotal-cont{
+    display: flex;
+    margin-left: 29rem;
+    gap: 17rem;
+}
+
+.prod-details-cont{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    margin-left: -55rem;
+}
+.prod-details-img{
+    margin-top: 3rem;
+    margin-left: -5rem;
+}
+.prod-details-img img{
+    object-fit: contain;
+    width: 70px;
+}
+.prod-details-cont h4{
+    font-family: poppins;
+    font-weight: bold;
+    margin-left: 0.4rem;
+    margin-top: -4.8rem;
+    font-size: 15px;
+}
+.prod-details-cont .price{
+    font-size: 12px;
+    margin-top: -1.25rem;
+}
+.prod-details-cont .remove-txt{
+    color: red;
+    font-size: 12px;  
+    cursor: pointer;
+    margin-top: 5.5rem;
+    position: absolute;
+}
+.prod-details-cont .remove-txt:hover{
+    color: rgb(141, 43, 43);
+}
+
+.quantity-box{
+    display: flex;
+    align-items: center;
+    width: 40px;
+    height: 30px;
+    border: 2px outset rgb(54, 53, 53);
+    margin-left: -26rem;
+    margin-top: 3.5rem;
+}
+.quantity-box p{
+    margin-left: 5px;
+}
+
+.subtotal-cont{
+    margin-top: 3rem;
+    margin-left: -4.8rem;
+}
+.subtotal-cont h4{
+    font-family: poppins;
+    font-weight: bold;
+    margin-left: 1.4rem;
+    margin-top: -4.8rem;
+    font-size: 15px;
+}
+
+.prod-2{
+    margin-top: 5.3rem;
+}
+
+.prod-3{
+    margin-top: 10.6rem;
+}
+
+.hr-line{
+    position: absolute;
+    height: 3px;
+    width: 24rem;
+    background-color: orangered;
+    margin-top: 18.5rem;
+    margin-left: 35.5rem;
+}
+
+.checkout-S-T-T{
+    position: absolute;
+    margin-top: 18rem;
+    margin-left: 16rem;
+}
+.checkout-prices{
+    position: absolute;
+    margin-top: 18rem;
+    margin-left: 55.5rem;
+}
+.checkout-S-T-T h4{
+    font-family: poppins;
+    font-weight: bold;
+    font-size: 15px;
+}
+.checkout-prices h4{
+    font-family: poppins;
+    font-weight: bold;
+    font-size: 15px; 
+}
+.checkout-prices .thirty-five-dollars{
+    margin-left: 0.5rem;
+}
+
+button{
+    position: absolute;
+    background-color: orangered;
+    color: white;
+    border-radius: 1rem;
+    width: 250px;
+    height: 36px;
+    border: none;
+    cursor: pointer;
+    font-family: poppins;
+    font-size: 15px;
+    margin-top: 28rem;
+    margin-left: 44rem;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid orangered;
+    color: orangered;
+    font-weight: bold;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100.5%;
+    background-color: black;
+    height: 19.5rem;
+    position: absolute;
+    margin-top: 21rem;
+    margin-left: -1rem;
+}
+footer p{
+    color: white;
+    font-family: poppins;
+}
+.one-footer-cont{
+    margin-top: -4rem;
+}
+.one-footer-cont h4{
+    color: white;
+    font-weight: bold;
+    font-family: poppins;
+}
+.one-footer-cont p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.one-footer-cont img{
+    width: 120px;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.two-footer-cont{
+    margin-top: -4rem;
+}
+.two-footer-cont img{
+    width: 150px;
+    margin-left: 7.3rem;
+}
+.two-footer-cont p{
+    text-align: center;
+}
+.three-footer-cont .blog,.return,.join{
+   margin-top: -0.5rem;
+}
+.three-and-four-footer-cont{
+    margin-top: -3.5rem;
+}
+.three-and-four-footer-cont h4{
+    color: white;
+    font-family: poppins;
+    font-weight: lighter;
+}
+.three-and-four-footer-cont .fb,.twitter,.instagram,.yt{
+    margin-top: -0.5rem;
+}
+.footer-hr{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 82rem;
+    height: 1px;
+    background-color: white;
+    margin-top: 10rem;
+}
+.footer-hr p{
+    margin-top: 2rem;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
